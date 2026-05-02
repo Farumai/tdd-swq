@@ -3,3 +3,5 @@ def from_roman(roman: str) -> int:
     pass
     if roman == "I":
         return 1
+    elif roman == "V":
+        return 5
