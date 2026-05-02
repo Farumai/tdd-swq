@@ -9,6 +9,9 @@ def test_i_is_1():
 def test_v_is_5():
     assert from_roman("V") == 5
 
+def test_x_is_10():
+    assert from_roman("X") == 10
+
 # Step 2: Repetition ("II"→2)
 
 # Step 3: Addition ("VI"→6, "LX"→60, "DC"→600)
